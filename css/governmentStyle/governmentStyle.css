@@ -63,7 +63,7 @@
 .center_right_detail img{
   float: left;
   width: 182px;
-  height: auto;
+  height: 240px;
   margin-top: 15px;
   margin-left: 20px;
 }
@@ -152,10 +152,10 @@
   text-indent: 43px;
   font-size: 20px;
   border-bottom: 1px solid #dededf;
-  background-image: url('../../images/governmentStyle3.jpg');
+  background-image: url('../../images/governmentStyle3.png');
   background-repeat: no-repeat;
   -webkit-background-size: 54px 40px;
-  background-size: 47px 35px;
+  background-size: 35px 35px;
 }
 .center_content h1{
   width: 300px;
