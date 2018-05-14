@@ -265,3 +265,43 @@
 }
 /*城市建设 轮播图插件 end*/
 /*城市建设 end*/
+/*办事指南 start*/
+.workGuide {
+    width: 1120px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.top_content {
+    width: 48%;
+    margin-left: 20px;
+}
+.work_title {
+    border-bottom: 1px solid #eee;
+}
+.work_title h3 {
+    color: #000;
+    font-size: 19px;
+    padding: 10px 15px;
+    border-left: 8px solid #1985e1;
+    margin: 6px 0;
+    font-weight: bold;
+}
+.work_content a {
+    color: #000;
+}
+.work_content ul {
+    padding: 10px 20px;
+}
+.work_content li {
+    width: 41%;
+    float: left;
+    background-color: #F0F4F7;
+    height: 60px;
+    text-align: center;
+    margin: 10px 22px;
+    line-height: 60px;
+    font-size: 18px;
+}
+/*办事指南 end*/
