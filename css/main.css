@@ -113,7 +113,7 @@
 }
 .city_content h3 {
 	color: #000;
-    font-size: 19px;
+    font-size: 20px;
     padding: 10px 15px;
     border-left: 2px solid #78b929;
     margin: 6px 0;
@@ -283,7 +283,7 @@
 }
 .work_title h3 {
     color: #000;
-    font-size: 19px;
+    font-size: 20px;
     padding: 10px 15px;
     border-left: 8px solid #1985e1;
     margin: 6px 0;
@@ -303,7 +303,7 @@
     text-align: center;
     margin: 10px 22px;
     line-height: 60px;
-    font-size: 18px;
+    font-size: 20px;
 }
 .work_content_right li {
     margin: 20px;
@@ -323,7 +323,8 @@
     width: 45%;
     float: left;
     margin-right: 50px;
-    margin-bottom: 7px;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
 .mid_content_download a span:first-child {
     font-weight: bold;
@@ -332,7 +333,7 @@
     bottom: 5px;
 }
 .mid_content_download a span.overhide {
-    width: 249px;
+    width: 225px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -350,7 +351,7 @@
 }
 .work_title_bottom h3 {
     color: #fff;
-    font-size: 17px;
+    font-size: 18px;
     padding: 13px 30px 9px;
     background-color: #1884E1;
     display: inline-block;
