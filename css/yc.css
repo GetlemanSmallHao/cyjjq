@@ -360,3 +360,58 @@ ul,li{ list-style:none;}
     color: #a6a8a9;
     font: 400 14px/16px "Microsoft YaHei";
 }*/
+/*侧边栏效果样式*/
+.right-totop {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    margin-top: -92px;
+}
+.right-totop span {
+    display: block;
+    background-color: rgba(136,138,139,0.4);
+    width: 21px;
+    height: 184px;
+    text-align: center;
+    font: 600 40px/184px "宋体";
+    color: #fff;
+    cursor: pointer;
+}
+.right-totop ul {
+    width: 90px;
+    height: 294px;
+    background-color: rgba(136,138,139,0.4);
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: none;
+}
+.right-totop ul li {
+    width: 100%;
+    height: 98px;
+    cursor: pointer;
+}
+.right-totop ul li a {
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+}
+.right-totop ul li:nth-child(1) {
+    background: url(../images/email2.png) no-repeat 22px 14px;
+}
+.right-totop ul li:nth-child(2) {
+    background: url(../images/tell2.png) no-repeat 22px 14px;
+}
+.right-totop ul li:nth-child(3) {
+    background: url(../images/top2.png) no-repeat 22px 14px;
+}
+.right-totop ul li:hover {
+    background-color: rgba(140,178,105,0.4);
+}
+.right-totop ul li a {
+    display: block;
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+    font: 500 20px/48px "Microsoft YaHei";
+}
