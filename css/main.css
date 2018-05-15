@@ -113,7 +113,7 @@
 }
 .city_content h3 {
 	color: #000;
-    font-size: 19px;
+    font-size: 20px;
     padding: 10px 15px;
     border-left: 2px solid #78b929;
     margin: 6px 0;
@@ -265,3 +265,103 @@
 }
 /*城市建设 轮播图插件 end*/
 /*城市建设 end*/
+/*办事指南 start*/
+.workGuide {
+    width: 1120px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+.top_content {
+    width: 47%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.work_title {
+    border-bottom: 1px solid #eee;
+}
+.work_title h3 {
+    color: #000;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-left: 8px solid #1985e1;
+    margin: 6px 0;
+    font-weight: bold;
+}
+.work_content a {
+    color: #000;
+}
+.work_content {
+    padding-top: 30px;
+}
+.work_content li a {
+    width: 41%;
+    float: left;
+    background-color: #F0F4F7;
+    height: 60px;
+    text-align: center;
+    margin: 10px 22px;
+    line-height: 60px;
+    font-size: 20px;
+}
+.work_content_right li {
+    margin: 20px;
+}
+.work_content_right li img {
+    width: 490px;
+    height: 112px;
+}
+.mid_content {
+    margin:0 20px;
+}
+.mid_content_download {
+    padding: 25px 15px;
+}
+.mid_content_download a {
+    color: #000;
+    width: 45%;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.mid_content_download a span:first-child {
+    font-weight: bold;
+    margin-right: 5px;
+    position: relative;
+    bottom: 5px;
+}
+.mid_content_download a span.overhide {
+    width: 225px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    color: #242425;
+}
+.mid_content_download a span:last-child {
+    float: right;
+}
+.bottom_content {
+    margin: 0 20px;
+}
+.work_title_bottom {
+    border-bottom: 1px solid #eee;
+}
+.work_title_bottom h3 {
+    color: #fff;
+    font-size: 18px;
+    padding: 13px 30px 9px;
+    background-color: #1884E1;
+    display: inline-block;
+    font-weight: bold;
+}
+.bottom_content_img {
+    text-align: center;
+    padding: 20px;
+}
+.bottom_content_img img {
+    width: 90%;
+}
+/*办事指南 end*/
