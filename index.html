@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="css/yc.css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/topNav.js"></script>
-    <title>产品聚集区官网</title>
+    <title>产品聚集区官网</title> 
 </head>
 <body>
-    <div class="wrap">
+    <div class="wrap" style="-webkit-transform: translate(0,0);-moz-transform: translate(0,0);-ms-transform: translate(0,0);-o-transform: translate(0,0);transform: translate(0,0);">
         <!--顶部导航条开始-->
         <div class="box">
             <div class="t_news">
@@ -190,7 +190,7 @@
             </ul>
         </div>
         <!--重点企业展示-->
-        <div class="show-inportant">
+        <div class="show-inportant clearfix">
             <div class="top">
                 <h3>重点企业展示</h3>
             </div>
@@ -315,12 +315,13 @@
                         $(function () {
                             var index = 4,timer3 = null;
                             clearInterval(timer3);
-                            timer3 = setInterval(function () {
+                            var timer3 = setInterval(function () {
+                                /*clearInterval(timer3);*/
                                 index++;
                                 if(index > $(".slider2 li").length-4){
                                     $('.slider2').css('left','-1020px');
                                     index = 5;
-                                }
+                                };
                                 $('.slider2').animate({
                                     left:-index*255
                                 },500);
@@ -377,7 +378,31 @@
                 </div>
             </div>
         </div>
+        <!--右边侧边栏-->
+        <script>
+            $(function () {
+                $(".right-totop span").on("click", function () {
+                    $(this).hide().siblings().show();
+                });
+                $(".right-totop ul").mouseleave(function () {
+                    $(this).fadeOut();
+                    $(this).siblings().fadeIn(1000);
+                });
+                $("#return-top").click(function () {
+                    $("html,body").animate({
+                        scrollTop:0
+                    },500);
+                });
+            });
+        </script>
+        <div class="right-totop">
+            <span><</span>
+            <ul>
+                <li><a href="##">邮箱</a></li>
+                <li><a href="##">联系电话</a></li>
+                <li><a href="javascript:;" id="return-top">top</a></li>
+            </ul> 
+        </div>
     </div>
-</div>
 </body>
 </html>
