@@ -6,3 +6,4 @@ governmentStyle.html   政府风貌
 index.html  首页
 workGuide.html   办事指南
 wgPower.html   办事指南> 电力接入
+companyStyle    企业风采
