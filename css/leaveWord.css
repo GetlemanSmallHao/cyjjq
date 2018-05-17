@@ -1,0 +1,22 @@
+.center {
+  width: 94%;
+  margin-left: 3%;
+  margin-top: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.top_title {
+  margin-top: 10px;
+  margin-left: 25px;
+  font-size: 14px;
+}
+.top_title a {
+  color: #666;
+}
+.top_title span {
+  color: #6391f1;
+}
