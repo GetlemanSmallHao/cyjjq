@@ -372,6 +372,17 @@
 
 /*办事指南 end*/
 /*办事指南 电力接入 start*/
+.top_title {
+    margin-top: 15px;
+    margin-left: 45px;
+    font-size: 14px;
+}
+.top_title a {
+    color: #666;
+}
+.top_title span {
+    color: #6391f1;
+}
 .wgPower {
     width: 1120px;
     background-color: #fff;
@@ -380,7 +391,7 @@
     padding: 10px;
 }
 .wgPower_content {
-    margin: 60px;
+    margin: 30px 60px;
     padding: 60px;
     border: 20px solid #F0F3F6;
 }
@@ -406,3 +417,25 @@
     padding-left: 85px;
 }
 /*办事指南 电力接入 end*/
+
+.city_content_bf {
+    margin: 15px 20px 20px 0;
+    padding: 5px 80px;
+}
+.city_content_bf h3 {
+    color: #000;
+    font-size: 22px;
+    padding: 10px 15px;
+    border-left: 4px solid #78b929;
+    margin: 6px 0;
+    font-weight: bold;
+}
+.city_content_bf p {
+    text-indent: 2em;
+    color: #000;
+    position: relative;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
