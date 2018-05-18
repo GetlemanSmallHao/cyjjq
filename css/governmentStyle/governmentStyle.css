@@ -24,6 +24,10 @@
   top: 77%;
   color: #fff;
   font-size: 22px;
+  cursor: pointer;
+}
+.center_detail:hover{
+  color: #fff;
 }
 .center_left_top p {
   width: 100%;
