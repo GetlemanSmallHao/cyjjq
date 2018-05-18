@@ -28,7 +28,7 @@
       </div>
       <div class="poor_detail">
         <p class="poor_title">扶贫信息</p>
-        <ul>
+        <ul class="poor_list">
           <li><a href="#">云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也</a><span>查看详情</span></li>
           <li><a href="#">云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也</a><span>查看详情</span></li>
           <li><a href="#">云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也云峰非也</a><span>查看详情</span></li>
@@ -48,7 +48,7 @@
     if(list%2 === 1){
       list += 1;
     }
-    $('ul').height($("ul li").height() * (list/2));
+    $('.poor_list').height($("ul li").height() * (list/2));
   })();
 </script>
 </html>
