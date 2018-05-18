@@ -44,11 +44,11 @@
 <script src="js/jquery-3.3.1.js"></script>
 <script>
   (function(){
-    var list = $('ul li').length;
+    var list = $('.poor_list li').length;
     if(list%2 === 1){
       list += 1;
     }
-    $('.poor_list').height($("ul li").height() * (list/2));
+    $('.poor_list').height($(".poor_list li").height() * (list/2));
   })();
 </script>
 </html>
