@@ -105,8 +105,8 @@
                                $(this).siblings().children("ul").hide();
                                flag = $(this).index();
                                $("#first-ul").on("mouseleave", function () {
-                                   clearInterval(timer);
                                    timer = setInterval(function () {
+                                       clearInterval(timer);
                                        if(flag<$("#first-ul>li").length-1){
                                            flag++;
                                        }else {
@@ -118,13 +118,14 @@
                                        $("#first-ul>li").eq(flag).children("ul").fadeIn(1000);
 
                                    },4000);
+                                   return false;
                                });
                            });
                           /* $("#first-ul").on("mouseenter", function () {
                                clearInterval(timer);
                            })*/
-                           clearInterval(timer);
                            timer = setInterval(function () {
+                               clearInterval(timer);
                                $("#first-ul>li").children("i").fadeOut(1000);
                                $("#first-ul>li").children("ul").fadeOut(1000);
                                $("#first-ul>li").eq(flag).children("i").fadeIn(2000);

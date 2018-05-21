@@ -1,14 +1,15 @@
-advice.html                     ╫Ьятов╡ъ
-cityBuild.html                  Ёгйп╫╗иХ
-contactUs.html                  а╙о╣нрцг
-usMap.html                      а╙о╣нрцгрЩсц╣д╣ьм╪
-governmentStyle.html            уЧ╦╝╥Гц╡
-index.html                      йврЁ
-workGuide.html                  ╟Лйбж╦до
-wgPower.html                    ╟Лйбж╦до> ╣Га╕╫схК
-companyStyle.html               фСр╣╥Г╡и
-baseFacilities.html             Ёгйп╫╗иХ> ╩Ы╢║иХй╘
-fileDownload                    йврЁ> уЧ╦╝нд╪Ч
-poor.html                       йврЁ> ╥Жф╤╧╔╪А
-partyLeader.html                уЧ╦╝╥Гц╡> уЧ╦╝аЛ╣╪
-inviteInvestment                йврЁ> упилрЩвй
+advice.html                     О©╫О©╫О©╫О©╫О©╫в╡О©╫
+cityBuild.html                  О©╫О©╫О©╫п╫О©╫О©╫О©╫
+contactUs.html                  О©╫О©╫о╣О©╫О©╫О©╫О©╫
+usMap.html                      О©╫О©╫о╣О©╫О©╫О©╫О©╫О©╫О©╫О©╫ц╣д╣О©╫м╪
+governmentStyle.html            О©╫О©╫О©╫О©╫О©╫О©╫ц╡
+index.html                      О©╫О©╫рЁ
+workGuide.html                  О©╫О©╫О©╫О©╫ж╦О©╫О©╫
+wgPower.html                    О©╫О©╫О©╫О©╫ж╦О©╫О©╫> О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
+companyStyle.html               О©╫О©╫р╣О©╫О©╫О©╫
+baseFacilities.html             О©╫О©╫О©╫п╫О©╫О©╫О©╫> О©╫О©╫О©╫О©╫О©╫О©╫й╘
+fileDownload                    О©╫О©╫рЁ> О©╫О©╫О©╫О©╫О©╫д╪О©╫
+poor.html                       О©╫О©╫рЁ> О©╫О©╫ф╤О©╫О©╫О©╫О©╫
+partyLeader.html                О©╫О©╫О©╫О©╫О©╫О©╫ц╡> О©╫О©╫О©╫О©╫О©╫Л╣╪
+inviteInvestment                О©╫О©╫рЁ> О©╫О©╫О©╫О©╫О©╫О©╫О©╫О©╫
+poorMore                        Ф┴╤Х╢╚Ф■©Г╜√Г┌╧Е┤╩Ф⌡╢Е╓ Х╥ЁХ╫╛И║╣И²╒

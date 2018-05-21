@@ -448,6 +448,9 @@ ul,li{ list-style:none;}
     .inner-box .tabTwo ul li.current {
         background-color: #1884e1;
     }
+    .inner-box .tabTwo ul li span.black {
+        color: #000;
+    }
     .inner-box .tabTwo ul li .dd {
         position: absolute;
         left: 0;

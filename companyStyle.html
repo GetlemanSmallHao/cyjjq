@@ -13,7 +13,9 @@
     $(function () {
         $(".inner-box").height($(".dd").height()+50);
         $("#compony1 li").on("click", function () {
-            $(this).addClass('current').siblings().removeClass('current');
+            $(this).children("span").removeClass('black');
+            $(this).addClass('current').siblings().removeClass('current').children("span").addClass('black');
+
             $(this).children(".dd").fadeIn();
             $(this).siblings().children(".dd").fadeOut();
             $(".inner-box").height($(this).children(".dd").height()+50);
@@ -100,7 +102,7 @@
                         </div>
                     </li>
                     <li>
-                        <span>重点项目</span>
+                        <span class="black">重点项目</span>
                         <div class="dd" style="display: none;">
                             <div class="wrap2">
                                 <div class="left">
