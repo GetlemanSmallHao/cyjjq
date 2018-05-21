@@ -40,9 +40,16 @@
         </div>
       </div>
       <script>
-        $("#more1").on("click", function () {
-          $(".right_content").hide();
-          $(".left_content").css("width","900");
+        $(function () {
+          $("#more1").on("click", function () {
+            $(".right_content").hide();
+            $(".left_content").css("width", "1010px");
+            $("h1").css('width','1010px');
+            $(".left_detail").each(function () {
+              $(this).children("p").eq(0).children("span").css('float','right');
+            });
+            $(this).hide();
+          });
         })
       </script>
       <div class="right_content">
