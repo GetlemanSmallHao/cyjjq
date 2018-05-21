@@ -1,6 +1,9 @@
 var mySwiper = new Swiper ('.swiper-container', {
     loop: true,
     autoplay:true,
+    effect: 'flip',
+    grabCursor: true,
+    speed: 2000,
     // 如果需要分页器
     pagination: {
       el: '.swiper-pagination',
