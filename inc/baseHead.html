@@ -14,9 +14,9 @@
         <div class="top">
             <div class="top-login">
                 <div class="right">
-                    <a href="##">登录</a>
+                    <a href="##" onclick="loginShow()">登录</a>
                     <span>|</span>
-                    <a href="##">注册</a>
+                    <a href="##" onclick="newShow()">注册</a>
                 </div>
             </div>
             <div class="top-center">
@@ -45,7 +45,7 @@
 
 
         <!-- 注册弹窗 -->
-        <div class="popup">
+        <div class="popup" id="new">
             <div class="popup_detail">
                 <div class="popup_top">
                     <img onclick="popup_close()" src="../images/popup_close.png" alt="请重新加载">
@@ -69,8 +69,8 @@
                     <input type="text">
                 </div>
                 <a href="#" class="zhuce">注册</a>
-                <a href="" class="popup_login">立即登录</a>
-                <a href="" class="popup_forget">忘记密码</a>
+                <a href="javascript:;" class="popup_login">立即登录</a>
+                <a href="javascript:;" class="popup_forget">忘记密码</a>
             </div>
         </div>
 
@@ -79,7 +79,7 @@
 
 
         <!-- 登录弹窗 -->
-        <div class="popup">
+        <div class="popup" id="login">
             <div class="popup_detail">
                 <div class="popup_top">
                     <img onclick="popup_close()" src="../images/popup_close.png" alt="请重新加载">
@@ -99,8 +99,8 @@
                 </div>
 
                 <a href="#" class="zhuce">登录</a>
-                <a href="" class="popup_login">注册新账号</a>
-                <a href="" class="popup_forget">忘记密码</a>
+                <a href="javascript:;" class="popup_new" style="    width: 114px;margin-top: 43px;margin-left: 250px;display: inline-block;color: #000;font-size: 14px;border-right: 1px solid #777;">注册新账号</a>
+                <a href="javascript:;" class="popup_forget">忘记密码</a>
             </div>
         </div>
 
@@ -110,7 +110,7 @@
 
 
         <!-- 忘记密码弹窗 -->
-        <div class="popup" style="display: block;">
+        <div class="popup" id="forget">
             <div class="popup_detail">
                 <div class="popup_top">
                     <img onclick="popup_close()" src="../images/popup_close.png" alt="请重新加载">
@@ -138,17 +138,48 @@
                     <input type="text">
                 </div>
                 <a href="#" class="zhuce">完成</a>
-                <a href="" class="popup_login" style="margin-top: 20px;">立即登录</a>
-                <a href="" class="popup_forget" style="margin-top: 20px;">注册新用户</a>
+                <a href="javascript:;" class="popup_login" style="margin-top: 20px;">立即登录</a>
+                <a href="javascript:;" class="popup_new" style="width: 114px;
+    margin-top: 43px;
+    display: inline-block;
+    color: #000;
+    font-size: 14px;
+    text-align: right;">注册新用户</a>
             </div>
         </div>
 
-    <script>
-        function popup_close(){
-            var popup = document.getElementsByClassName('popup')[0];
-            popup.style.display = 'none';
-        }
-    </script>
+        <script type="text/javascript">
+            function popup_close(){
+                var popup = document.getElementsByClassName('popup');
+                for(var i = 0 ;i < popup.length;i++){
+                    popup[i].style.display = 'none';
+                }
+            }
+            function loginShow(){
+                var login = document.getElementById('login');
+                login.style.display = 'block';
+            }
+            function newShow(){
+                var zc = document.getElementById('new');
+                zc.style.display = 'block';
+            }
+        </script>
+        <script>
+            $(function () {
+                $('.popup_login').on("click", function () {
+                    $('#login').show();
+                    $('#new,#forget').hide();
+                });
+                $('.popup_new').on("click", function () {
+                    $('#new').show();
+                    $('#login,#forget').hide();
+                });
+                $('.popup_forget').on("click", function () {
+                    $('#forget').show();
+                    $('#new,#login').hide();
+                })
+            })
+        </script>
     </div>
 </body>
 </html>
