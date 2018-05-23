@@ -103,7 +103,7 @@
                                $(this).children("ul").fadeIn();
                                $(this).siblings().children("i").hide();
                                $(this).siblings().children("ul").hide();
-                               flag = $(this).index();
+                              /* flag = $(this).index();
                                $("#first-ul").on("mouseleave", function () {
                                    timer = setInterval(function () {
                                        clearInterval(timer);
@@ -116,15 +116,14 @@
                                        $("#first-ul>li").children("ul").fadeOut();
                                        $("#first-ul>li").eq(flag).children("i").fadeIn(1000);
                                        $("#first-ul>li").eq(flag).children("ul").fadeIn(1000);
-
                                    },4000);
-                                   return false;
                                });
+                               /!*return false;*!/*/
                            });
                           /* $("#first-ul").on("mouseenter", function () {
                                clearInterval(timer);
                            })*/
-                           timer = setInterval(function () {
+                           /*timer = setInterval(function () {
                                clearInterval(timer);
                                $("#first-ul>li").children("i").fadeOut(1000);
                                $("#first-ul>li").children("ul").fadeOut(1000);
@@ -136,7 +135,7 @@
                                }else {
                                    flag = 0;
                                }
-                           },4000);
+                           },4000);*/
                        });
                     </script>
                     <ul id="first-ul">
@@ -152,10 +151,7 @@
                                 <li><a href="##">李克强李克强李克强李克强李克强近平总书记</a><span>[2018-05-01]</span></li>
                                 <li><a href="##">李克强李克强李克强李克强李克强近平总书记</a><span>[2018-05-01]</span></li>
                                 <li><a href="##">李克强李克强李克强李克强李克强近平总书记</a><span>[2018-05-01]</span></li>
-                                <li><a href="##">李克强李克强李克强李克强李克强近平总书记</a><span>[2018-05-01]</span></li>
-                                <li><a href="##">李克强李克强李克强李克强李克强近平总书记</a><span>[2018-05-01]</span></li>
-                                <li><a href="##">李克强李克强李克强李克强李克强近平总书记</a><span>[2018-05-01]</span></li>
-                                <li><a href="##">李克强李克强李克强李克强李克强近平总书记</a><span>[2018-05-01]</span></li>
+                                <li style="margin-top: 10px;"><a href="##" style="float: right;margin-right: 20px;background: none;color: #666;">更多>></a></li>
                             </ul>
                             <i></i>
                         </li>
