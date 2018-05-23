@@ -25,9 +25,9 @@
                     <div class="select">
                         <div class="dt">文件</div>
                         <div class="box2" style="display: none;">
-                            <div class="dd">文件</div>
-                            <div class="dd">政府</div>
-                            <div class="dd">新闻</div>
+                            <div class="dd" name="wenjian">文件</div>
+                            <div class="dd" name="zhengce">政府</div>
+                            <div class="dd" name="xinwen">新闻</div>
                         </div>
                     </div>
                     <script>
@@ -42,11 +42,22 @@
                                 $('.dt').text($(this).text());
                                 $('.box2').hide();
                                 $('input').attr('placeholder','请输入'+$(this).text()+'信息.......');
+                                var str = $(this).attr('name');
+                                /*alert(str);*/
+                                $('form').hide();
+                                $('.'+str).show();
                                 return false;
                             })
-                        })
+                        });
                     </script>
-                    <input class="left" placeholder="搜索文件、政策、新闻" type="search" name="" id="">
+                    <style>
+                        form {
+                            width: 230px;
+                        }
+                    </style>
+                    <form class="wenjian left"><input class="left" placeholder="搜索文件、政策、新闻" type="search" name="" id="" value="1"></form>
+                    <form class="zhengce left" style="display: none;"><input class="left" placeholder="搜索文件、政策、新闻" type="search" name="" id="" value="2"></form>
+                    <form class="xinwen left" style="display: none"><input class="left" placeholder="搜索文件、政策、新闻" type="search" name="" id="" value="3"></form>
                     <button class="left">搜索</button>
                 </div>
             </div>

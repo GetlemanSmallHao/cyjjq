@@ -42,7 +42,7 @@ s,i,em{font-style:normal;text-decoration:none;}
 
 /*所有的body都用此图片*/
 body {
-    background: url(../images/背景图.png) no-repeat top center;
+    background: url(../images/bgOne.png) no-repeat top center;
     background-size: 1200px 1405px;
 }
 
