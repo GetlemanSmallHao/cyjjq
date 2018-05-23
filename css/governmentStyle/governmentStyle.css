@@ -274,4 +274,6 @@
   margin: 0 60px 0 670px;
   line-height: 24px;
   font-size: 16px;
+  height: 170px;
+  overflow: hidden;
 }
